@@ -123,4 +123,15 @@ public class NotificationLog {
 		this.metadata = metadata;
 	}
 
+	 public enum type {
+	        MARKETING, NEWSLETTER, UPDATES
+	    }
+
+	    public enum channel {
+	        EMAIL, SMS, PUSH
+	    }
+
+	    public enum status {
+	        PENDING, SENT, FAILED
+	    }
 }

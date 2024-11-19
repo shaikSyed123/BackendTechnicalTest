@@ -134,4 +134,7 @@ public class UserPreference {
     public void setNotificationLogs(List<NotificationLog> notificationLogs) {
         this.notificationLogs = notificationLogs;
     }
+    public enum Frequency {
+        DAILY, WEEKLY, MONTHLY, NEVER
+    }
 }
